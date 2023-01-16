@@ -1,0 +1,25 @@
+{
+  "name": "resturant_pae",
+  "version": "1.0.0",
+  "description": "resturant_page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashishchandra9/Resturant_page.git"
+  },
+  "author": "Ashishchandra9",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ashishchandra9/Resturant_page/issues"
+  },
+  "homepage": "https://github.com/Ashishchandra9/Resturant_page#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
