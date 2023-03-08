@@ -2,7 +2,7 @@ import { initialPageLoad } from './initial-page-load.js'
 import { menu } from './menu.js'
 import { contact } from './contact.js'
 
-let tabSwitching = (function(){
+// let tabSwitching = (function(){
     const homeBtn = document.querySelector('.home');
     homeBtn.addEventListener('click', initialPageLoad);
 
@@ -12,4 +12,4 @@ let tabSwitching = (function(){
     const contactBtn = document.querySelector('.contact');
     contactBtn.addEventListener('click', contact);
 
-})();
+// })();

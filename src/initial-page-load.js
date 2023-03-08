@@ -1,5 +1,6 @@
 export function initialPageLoad(){
     const contentDiv = document.querySelector("#content");
+    contentDiv.replaceChildren();
     const heading = document.createElement('h1')
     heading.textContent="Welcome to chaaywaalya resturant and bar";
     heading.classList.add("landing-title");
